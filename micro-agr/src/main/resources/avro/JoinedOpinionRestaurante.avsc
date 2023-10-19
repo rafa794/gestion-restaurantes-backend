@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "namespace": "com.hiberus.kafka.avro",
+  "name": "JoinedOpinionRestaurante",
+  "fields": [
+    {
+      "name": "idOpinion",
+      "type": "string"
+    },
+    {
+      "name": "nombreRestaurante",
+      "type": "string"
+    },
+    {
+      "name": "calificacion",
+      "type": "int"
+    },
+    {
+      "name": "comentario",
+      "type": "string"
+    },
+    {
+      "name": "fecha",
+      "type": "string"
+    },
+    {
+      "name": "idRestaurante",
+      "type": "int"
+    },
+    {
+      "name": "direccion",
+      "type": "string"
+    },
+    {
+      "name": "telefono",
+      "type": ["string", "null"]
+    }
+  ]
+}

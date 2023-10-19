@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "namespace": "com.hiberus.kafka.avro",
+  "name": "OpinionValue",
+  "fields": [
+    {
+      "name": "idOpinion",
+      "type": "string"
+    },
+    {
+      "name": "nombreRestaurante",
+      "type": "string"
+    },
+    {
+      "name": "calificacion",
+      "type": "int"
+    },
+    {
+      "name": "comentario",
+      "type": "string"
+    },
+    {
+      "name": "fecha",
+      "type": "string"
+    }
+  ]
+}

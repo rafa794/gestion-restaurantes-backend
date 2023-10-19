@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "namespace": "com.hiberus.kafka.avro",
+  "name": "RestauranteValue",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "nombre",
+      "type": "string"
+    },
+    {
+      "name": "direccion",
+      "type": "string"
+    },
+    {
+      "name": "telefono",
+      "type": ["string", "null"]
+    }
+  ]
+}

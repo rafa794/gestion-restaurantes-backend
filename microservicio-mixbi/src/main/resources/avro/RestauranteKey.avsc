@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "com.hiberus.kafka.avro",
+  "name": "RestauranteKey",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    }
+  ]
+}
